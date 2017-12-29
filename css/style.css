@@ -19,16 +19,12 @@ p {
   line-height: 2rem;
 }
 
-#download-button {
-  background-color: rgb(156, 7, 35);
-}
-
 .button-collapse {
   color: gray;
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(203, 198, 198, 0.90);
@@ -44,7 +40,7 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 0;
   }
   #index-banner .section {
     top: 10%;
@@ -66,4 +62,12 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+#logo-container {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.3rem;
 }
