@@ -31,12 +31,15 @@ p {
 }
   .parallax-container .section {
     width: 100%;
+    position: absolute;
+    top: 0;
   }
 
   label {
     font-size: 1.2rem;
   }
 
+  
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -46,6 +49,7 @@ p {
     top: 10%;
   }
 }
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
