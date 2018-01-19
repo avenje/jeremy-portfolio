@@ -44,12 +44,11 @@ label {
 }
 
 #mid-gradient {
-  height: 250px;
   width: 100%;
   line-height: 0;
   /* position: absolute; */
   background: gray;
-  background: radial-gradient(#546e7a, lightgray);
+  background: radial-gradient(#546e7a 5%, lightgray 60%);
   /* top: 0; */
 }
 
