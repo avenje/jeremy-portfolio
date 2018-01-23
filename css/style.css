@@ -38,6 +38,11 @@ label {
   font-size: 1.2rem;
 }
 
+#titleName {
+  font-family: 'Righteous', cursive;
+  font-size: 6em;
+}
+
 #head-gradient {
   height: 250px;
   width: 100%;
