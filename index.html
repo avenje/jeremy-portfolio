@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 </head>
 
 <body>
@@ -76,18 +75,25 @@
 
   <div class="container">
     <div class="row center section scrollspy" id="pastProjects">
-
           <h3 class="header col s12 black-text"><hr>Past Projects<hr></h3>
           <div class="carousel center" id="mid-gradient">
-            <a class="carousel-item" href="https://avenje.github.io/train_scheduler/" target="_blank" alt="Train Scheduler app"><img src="./images/train.svg"></a>
-            <a class="carousel-item" href="https://safe-cliffs-63356.herokuapp.com/" target="_blank" alt="Friend Finder app"><img src="./images/friendFinder.svg"></a>
-            <a class="carousel-item" href="https://avenje.github.io/giphy-api/" target="_blank" alt="Crash Test Giphys appp"><img src="./images/giphys.svg"></a>
-            <a class="carousel-item" href="https://ccrs2006.github.io/barista" target="_blank" alt="The Barista app"><img src="./images/barista.svg"></a>
-            <a class="carousel-item" href="https://tranquil-dawn-96654.herokuapp.com/" target="_blank" alt="Scrape News app"><img src="./images/scrapeNews.svg"></a>
+            <a class="carousel-item" id="trainID" href="https://avenje.github.io/train_scheduler/" target="_blank" alt="Train Scheduler app"><img src="./images/train.svg">Train Scheduler</a>
+            <a class="carousel-item" id="friendID" href="https://safe-cliffs-63356.herokuapp.com/" target="_blank" alt="Friend Finder app"><img src="./images/friendFinder.svg">Friend Finder</a>
+            <a class="carousel-item" id="giphyID" href="https://avenje.github.io/giphy-api/" target="_blank" alt="Crash Test Giphys appp"><img src="./images/giphys.svg">Crash Test Giphys</a>
+            <a class="carousel-item" id="baristaID" href="https://ccrs2006.github.io/barista" target="_blank" alt="The Barista app"><img src="./images/barista.svg">The Barista</a>
+            <a class="carousel-item" id="scrapeID" href="https://tranquil-dawn-96654.herokuapp.com/" target="_blank" alt="Scrape Android News app"><img src="./images/scrapeNews.svg">Scrape Android News</a>
           </div>
+          
+          <div class="container">
+              <div class="row">
+                <div class="btn-group inline pull-left">
+                  <div id="thisProject"></div>
+                </div>
+              </div>
+            </div>
 
             <!--  ========== Icon Section =============  -->
-
+          <hr>
           <div class="container">
             <div class="section">
               <div class="row">
@@ -136,29 +142,29 @@
           <div class="row">
             <div class="col l4 s12">
               <div id="contactMe" class="section scrollspy">
-                <h5 class="header col s3 white-text">Send Me a Message</h5>
-                  <h5 class="header col s9 white-text">
+                <h5 class="header col s3 black-text">Send Me a Message</h5>
+                  <h5 class="header col s9 black-text">
                       <form action="mailto:jeremyavenarius@gmail.com?subject=Sent From Jeremy's portfolio page" method="post" enctype="text/plain" class="validate">
                         <div class="form-group">
-                          <label for="name" data-error="wrong" data-sucess="right" class="col s6 white-text validate">Name</label>
+                          <label for="name" data-error="wrong" data-sucess="right" class="col s6 black-text validate">Name</label>
                           <div class="active">
                             <input type="text" class="form-control" name="name" id="name">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label for="company" class="col s6 white-text white-text active">Company</label>
+                          <label for="company" class="col s6 black-text active">Company</label>
                           <div class="active">
                             <input type="text" class="form-control" name="company" id="company">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label for="email" data-error="wrong" data-sucess="right" class="col s6 white-text white-text">Email</label>
+                          <label for="email" data-error="wrong" data-sucess="right" class="col s6 black-text">Email</label>
                           <div class="active">
                             <input type="email" class="form-control validate" name="email" id="email">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label for="message" class="col s6 white-text">Message</label>
+                          <label for="message" class="col s6 black-text">Message</label>
                           <div class="active">
                             <textarea class="form-control" rows="5" name="message"></textarea>
                           </div>
@@ -185,11 +191,10 @@
       <div class="row">
  
         <div class="col l4 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">How to Find Me</h5>
             <a href="https://github.com/avenje" alt="Jeremy's github link" target="_blank"><img src="./images/github2.png" alt="Github link" width="40px" height="40px" border-radius="5px"></a>
             <a href="https://www.linkedin.com/in/jeremy-avenarius" alt="Jeremy's Linkin link" target="_blank"><img src="./images/linkedin2.svg" alt="Linkedin link" width="40px" height="40px"></a>
-            <a href="https://stackoverflow.com/users/8212986/jeremy-a" alt="Jeremy's Stackoverflow link" target="_blank"><img src="./images/stacked2.svg" alt="Stackoverflow link" width="40px" height="40px"></a>
-            <a href="contact.html" alt="Email Jeremy"><img src="./images/gmailLogo.svg" alt="gmail link" width="40px" height="40px"></a>  
+            <a href="mailto:jeremyavenarius@gmail.com?subject=Sent From Jeremy's portfolio page" alt="Email Jeremy"><img src="./images/gmailLogo.svg" alt="gmail link" width="40px" height="40px"></a>  
         </div>
       </div>
     </div>
