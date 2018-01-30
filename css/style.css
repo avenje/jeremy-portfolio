@@ -8,6 +8,14 @@ body {
   min-width: 468px;
 }
 
+#titleName, a {
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4, h5 {
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 p {
   line-height: 2rem;
 }
@@ -15,6 +23,7 @@ p {
 #nameHeader {
   text-indent: 2%;
   display: inline;
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button-collapse {
