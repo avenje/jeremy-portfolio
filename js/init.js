@@ -16,7 +16,13 @@ function getYear() {
   let today= new Date();
   let currentYear= today.getFullYear();
   $("#currentYear").text(currentYear + " | Jeremy Avenarius");
-  console.log(currentYear);
 };
 getYear();
-    
+ 
+function updatedStamp() {
+  let lastUpdate = document.lastModified;
+  const length = 10;
+  let stamp = lastUpdate.substring(0, length);
+  $("#updatedStamp").text("Last updated on " + stamp);
+}
+updatedStamp();

@@ -72,6 +72,9 @@ label {
   z-index: 0;
 }
 
+#updatedStamp {
+  right: 5%;
+}
   
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -88,23 +91,4 @@ label {
   #index-banner .section {
     top: 0;
   }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-#logo-container {
-  font-size: 1.3rem;
-}
-
-h5 {
-  font-size: 1.3rem;
 }
