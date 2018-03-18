@@ -9,7 +9,7 @@ p {
 
 #clip {
  /*
- Ensure background is added first  gray #d3d3d3, dark #073d56, light rgb(211,211,211)
+ Ensure background is added first
  */  
  background: linear-gradient(to bottom, #d3d3d3, #073d56, #cac1b8);
  font-family: 'Expletus Sans', cursive;
@@ -23,6 +23,21 @@ p {
  line-height: 14rem;
 }
 
+#clipSections {
+  /*
+  Ensure background is added first
+  */  
+  background: linear-gradient(to bottom, #d3d3d3, #073d56, #cac1b8);
+  font-family: 'Expletus Sans', cursive;
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 4rem;
+ }
 
 /* =================== */
 
