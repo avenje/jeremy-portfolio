@@ -1,3 +1,31 @@
+
+#clip html body {
+  background: grey;
+}
+
+p {
+  margin: 0px;
+}
+
+#clip {
+ /*
+ Ensure background is added first  gray #d3d3d3, dark #073d56, light rgb(211,211,211)
+ */  
+ background: linear-gradient(to bottom, #d3d3d3, #073d56, #cac1b8);
+ font-family: 'Expletus Sans', cursive;
+ background-attachment: fixed;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+ 
+ font-size: 10vw;
+ font-weight: bold;
+ text-align: center;
+ line-height: 14rem;
+}
+
+
+/* =================== */
+
 nav ul a,
 nav .brand-logo {
   color: gray;
@@ -53,7 +81,7 @@ label {
 }
 
 #head-gradient {
-  height: 250px;
+  height: 150px;
   width: 100%;
   line-height: 0;
   /* position: absolute; */
