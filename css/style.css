@@ -63,12 +63,6 @@ p {
   line-height: 2rem;
 }
 
-#nameHeader {
-  text-indent: 2%;
-  display: inline;
-  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .button-collapse {
   color: gray;
 }
@@ -133,5 +127,13 @@ label {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  #clip {
+    font-size: 3rem;
+  }
+
+  #clipSections {
+    font-size: 2rem;
   }
 }
