@@ -1,4 +1,3 @@
-
 #clip html body {
   background: grey;
 }
@@ -8,15 +7,11 @@ p {
 }
 
 #clip {
- /*
- Ensure background is added first
- */  
  background: linear-gradient(to bottom, #d3d3d3, #073d56, #cac1b8);
  font-family: 'Expletus Sans', cursive;
  background-attachment: fixed;
  -webkit-text-fill-color: transparent;
  -webkit-background-clip: text;
- 
  font-size: 10vw;
  font-weight: bold;
  text-align: center;
@@ -24,22 +19,16 @@ p {
 }
 
 #clipSections {
-  /*
-  Ensure background is added first
-  */  
   background: linear-gradient(to bottom, #d3d3d3, #073d56, #cac1b8);
   font-family: 'Expletus Sans', cursive;
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
   text-align: center;
   line-height: 4rem;
  }
-
-/* =================== */
 
 nav ul a,
 nav .brand-logo {
@@ -68,7 +57,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 400px;
+  min-height: 425px;
   line-height: 0;
   height: auto;
   color: rgba(203, 198, 198, 0.90);
@@ -93,19 +82,15 @@ label {
   height: 150px;
   width: 100%;
   line-height: 0;
-  /* position: absolute; */
   background: gray;
   background: linear-gradient(#546e7a, lightgray);
-  /* top: 0; */
 }
 
 #mid-gradient {
   width: 100%;
   line-height: 0;
-  /* position: absolute; */
   background: gray;
   background: radial-gradient(#546e7a 5%, lightgray 60%);
-  /* top: 0; */
   z-index: 0;
 }
 
@@ -121,6 +106,10 @@ label {
   #index-banner .section {
     top: 10%;
   }
+
+  #clipSections {
+    line-height: 3rem;
+  }
 }
 
 
@@ -135,5 +124,9 @@ label {
 
   #clipSections {
     font-size: 2rem;
+  }
+
+  #updatedStamp {
+    right: 2%;
   }
 }
